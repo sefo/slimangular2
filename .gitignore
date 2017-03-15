@@ -1,0 +1,15 @@
+/vendor
+/angular/node_modules
+
+composer.lock
+*.log
+*.ico
+*.eot
+*.svg
+*.ttf
+*.woff
+*.woff2
+*.html
+*.js
+*.map
+*.gif
