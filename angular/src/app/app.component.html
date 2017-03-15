@@ -1,0 +1,20 @@
+<div class="ui-g">
+  <div class="ui-g-12">
+    <h1>
+      {{title}}
+    </h1>
+  </div>
+</div>
+
+<div class="ui-g">
+  <div class="ui-g-6">
+    <p-dataTable [value]="utilisateurs">
+      <p-column field="id" header="id"></p-column>
+      <p-column field="nom" header="nom"></p-column>
+      <p-column field="prenom" header="prenom"></p-column>
+      <p-column field="email" header="email"></p-column>
+    </p-dataTable>
+  </div>
+</div>
+
+<p-growl [value]="msgs"></p-growl>
